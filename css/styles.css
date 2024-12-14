@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+
+    font-weight: normal;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+    line-height: 1.6;
+    background-image: url(purplegif.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    overflow-y: scroll; 
+    height: 100vh; 
+} 
+
+.welcome1 {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 50px;
+    font-family: "Rubik Mono One", monospace;
+    text-align: center;
+}
+
+.welcome h1 {
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 10px solid #ffffff;
+    font-size: 48px; 
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.welcomep p {
+    border-bottom: 2px solid white ;
+    position: static; 
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.welcomep {
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.portfolios {
+    font-family: "Rubik Mono One", monospace;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    text-align: center;
+    min-height: 100vh; 
+    text-align: center;
+}
+
+.portfolios h2 {
+    background-color: white;
+    padding-top: 25px;
+    padding-left: 437.5px;
+    padding-right: 437.5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+
+.portfolios-grid {
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+
+
+.box { 
+    width: 300px; 
+    height: 300px; 
+    text-decoration: none;
+    background: #fff;
+    padding: 50px;
+    border: 1px solid #8842c4;
+    border-radius: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(243, 218, 255, 0.2);
+}
+.box:active {
+    color: rgb(138, 113, 154);
+    background-color: #f6e7ff;
+    transform: scale(0.9); 
+}
+
+.box span {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+}
+

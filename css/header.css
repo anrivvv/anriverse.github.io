@@ -1,0 +1,62 @@
+/*Header*/
+header {
+    font-family: "Rubik Mono One", monospace;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    width: 100%; 
+    color: #5a2e88; /*text color*/
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    overflow: hidden; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    z-index: 1; 
+}
+
+header nav {
+    display: flex;
+    gap: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+header nav a {
+    color: #5a2e88; /*text color*/
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+header nav a:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+header .shape {
+    background: #fff;
+    color: #1c1321;
+    padding: 8px 15px;
+    border-radius: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+    transition: background 0.3s, color 0.3s;
+}
+
+header .shape:hover {
+    background: #ffe5ff;
+    color: #6b12a7;
+}
